@@ -10,6 +10,33 @@
 </head>
 
 <body>
+    <main id="main-area">
+        <section>
+            <h1>Let's Play a Guessing Game!</h1>
+        </section>
+    
+        <section>
+            <h2>You'll have no more than four tries to correctly guess a whole number between 1 and 20.
+            </h2>
+        </section>
+
+        <section>
+            <label id="guess-input">Enter your guess(es) here: <input id="number-input" type="number" min="1" max="20" /></label>
+            <button id="submit-button">Submit</button>
+        </section>
+
+        <section>
+            <div class="reply">
+                <span id="guess-result"></span>
+                <span id="guesses-to-go">guesses to go</span>
+            </div>
+        </section
+        
+        <section id="outcome-response">
+            <div id="won-or-lost"></div>
+        </section>
+
+    </main>
 
     <script type="module" src="app.js"></script>
 </body>
