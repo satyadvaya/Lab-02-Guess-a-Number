@@ -1,22 +1,22 @@
-const input = document.getElementById('number-input');
+// const input = document.getElementById('number-input');
 const submitButton = document.getElementById('submit-button');
-const guess = document.getElementById('submitted-guess')
-const result = document.getElementById('submitted-result');
+const guess = document.getElementById('submitted-guess');
+// const result = document.getElementById('submitted-result');
 const wonOrLost = document.getElementById('won-or-lost');
 const guessResult = document.getElementById('guess-result');
-const guessesToGo = document.getElementById('guesses-to-go')
-const outcomeResponse = document.getElementById('outcome-response');
-const resetButton = document.getElementById('reset');
-const mainArea = document.getElementById('main-area');
+// const guessesToGo = document.getElementById('guesses-to-go');
+// const outcomeResponse = document.getElementById('outcome-response');
+// const resetButton = document.getElementById('reset');
+// const mainArea = document.getElementById('main-area');
 
 const generatedNumber = Math.floor(Math.random() * 20 + 1) ;
 
 const decision = (guess - generatedNumber);
 
-function beginGame() {
-    let correctAnswers = 0;
-    let remainingGuesses = 4;
-}
+// function beginGame() {
+//     let correctAnswers = 0;
+//     let remainingGuesses = 4;
+// }
 
 function winner() {
     wonOrLost.textContent = 'You Are a Winner!';
