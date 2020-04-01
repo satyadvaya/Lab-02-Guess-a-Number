@@ -1,5 +1,5 @@
 const input = document.getElementById('number-input');
-const button = document.getElementById('submit-button');
+const submitButton = document.getElementById('submit-button');
 const guess = document.getElementById('submitted-guess')
 const result = document.getElementById('submitted-result');
 const wonOrLost = document.getElementById('won-or-lost');
@@ -11,7 +11,7 @@ const mainArea = document.getElementById('main-area');
 
 const generatedNumber = Math.floor(Math.random() * 20 + 1) ;
 
-const decision = compareNumbers(guess, generatedNumber);
+const decision = (guess - generatedNumber);
 
 function beginGame() {
     let correctAnswers = 0;
