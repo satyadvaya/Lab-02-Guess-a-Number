@@ -18,13 +18,13 @@ const decision = (guess - generatedNumber);
 //     let remainingGuesses = 4;
 // }
 
-function winner() {
-    wonOrLost.textContent = 'You Are a Winner!';
-}
+// function winner() {
+//     wonOrLost.textContent = 'You Are a Winner!';
+// }
 
-function loser() {
-    wonOrLost.textContent = 'You Are a Loser!';    
-}
+// function loser() {
+//     wonOrLost.textContent = 'You Are a Loser!';    
+// }
 
 if (decision === 0) {
     winner();
@@ -38,4 +38,4 @@ else if (decision === 1) {
     guessResult.textContent = 'Your guess was too high -- guess lower!';
 }
 
-submitButton.addEventListener('click', beginGame);
+// submitButton.addEventListener('click', beginGame);
